@@ -1,7 +1,7 @@
 from pkgutil import iter_importers
-import string
 from gtts import gTTS
 from pydub import AudioSegment
+import string
 import xml.etree.ElementTree as ET
 import requests
 import hashlib
@@ -18,12 +18,12 @@ TMPPRONUNCIATION = "tmp/a.mp3"
 TMPTTS = "tmp/b.mp3"
 IGNORE_KANJI = False
 IGNORE_KANA = False
-AUDIO_WEBSITE = "http://assets.languagepod101.com/dictionary/japanese/audiomp3.php?kana={0}&kanji={1}"
-AUDIO_ERR_MD5 = "Config/missingaudio.md5"
 MANUAL_CHOICE = True
 NUM_CHOICES = 3
 OUTPUT_DIR = "./Out/"
 REPEAT = 2
+AUDIO_WEBSITE = "http://assets.languagepod101.com/dictionary/japanese/audiomp3.php?kana={0}&kanji={1}"
+AUDIO_ERR_MD5 = "Config/missingaudio.md5"
 
 
 class IEntry:
