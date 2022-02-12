@@ -1,5 +1,4 @@
 from pkgutil import iter_importers
-from re import I
 import string
 from gtts import gTTS
 from pydub import AudioSegment
